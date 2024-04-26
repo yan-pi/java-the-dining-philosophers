@@ -1,10 +1,13 @@
-# Jantar dos filosofos
-O Jantar dos filósofos foi proposto por Dijkstra em 1965 como um problema de sincronização. A partir de então todos os algoritmos propostos como soluções de sincronização acabaram sendo relacionados ou testados contra o problema do Jantar dos filósofos.
+# Dining Philosophers
 
-# Definição do problema do jantar dos filosofos  
+The Dining Philosophers problem, proposed by Dijkstra in 1965, serves as a synchronization challenge. Since then, numerous synchronization algorithms have been either related to or tested against the Dining Philosophers problem.
 
-Lembre-se que é apenas uma analogia. Nesse sentido, cada filósofo alterna entre duas tarefas: comer ou pensar. Quando um filósofo fica com fome, ele tenta pegar os garfos à sua esquerda e à sua direita; um de cada vez, independente da ordem. Caso ele consiga pegar dois garfos, ele come durante um determinado tempo e depois recoloca os garfos na mesa. Em seguida ele volta a pensar.
+## Problem Definition
 
-Por definição, o problema em questão é:
+It's important to note that this is merely an analogy. In this scenario, each philosopher alternates between two tasks: eating and thinking. When a philosopher becomes hungry, they attempt to pick up the forks to their left and right, one at a time, regardless of order. If successful in acquiring both forks, they eat for a certain period and then return the forks to the table, thereafter resuming thinking.
 
-Você é capaz de propor um algoritmo que implemente cada filósofo de modo que ele execute as tarefas de comer e pensar sem nunca ficar travado?
+By definition, the problem at hand is:
+
+Are you able to propose an algorithm that implements each philosopher in such a way that they can execute the tasks of eating and thinking without ever becoming deadlocked?
+
+Feel free to add more details or explanations as needed!
